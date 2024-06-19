@@ -1,0 +1,97 @@
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Claires-MacBook-Pro:Seneca-Workspace claire$ node -v
+clrev20.14.0
+Claires-MacBook-Pro:Seneca-Workspace claire$ npm -v
+10.7.0
+Claires-MacBook-Pro:Seneca-Workspace claire$ pwd
+/Users/claire/Desktop/Seneca/1st semester/Adaptive Web Design/Seneca-Workspace
+Claires-MacBook-Pro:Seneca-Workspace claire$ cd Week5
+bash: cd: Week5: No such file or directory
+Claires-MacBook-Pro:Seneca-Workspace claire$ cd Week 5
+bash: cd: Week: No such file or directory
+Claires-MacBook-Pro:Seneca-Workspace claire$ cd Week5
+Claires-MacBook-Pro:Week5 claire$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (week5) week5-project
+version: (1.0.0) 
+description: this is a test project
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: 
+author: 
+license: (ISC) 
+About to write to /Users/claire/Desktop/Seneca/1st semester/Adaptive Web Design/Seneca-Workspace/Week5/package.json:
+
+{
+  "name": "week5-project",
+  "version": "1.0.0",
+  "description": "this is a test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+
+npm notice
+npm notice New minor version of npm available! 10.7.0 -> 10.8.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.1
+npm notice To update run: npm install -g npm@10.8.1
+npm notice
+Claires-MacBook-Pro:Week5 claire$ npm init -y
+Wrote to /Users/claire/Desktop/Seneca/1st semester/Adaptive Web Design/Seneca-Workspace/Week5/package.json:
+
+{
+  "name": "week5-project",
+  "version": "1.0.0",
+  "description": "this is a test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}
+
+
+
+Claires-MacBook-Pro:Week5 claire$ npm install live-server
+npm warn deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm warn deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm warn deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm warn deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated fsevents@1.2.13: The v1 package contains DANGEROUS / INSECURE binaries. Upgrade to safe fsevents v2
+npm warn deprecated opn@6.0.0: The package has been renamed to `open`
+npm warn deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+
+added 192 packages, and audited 193 packages in 15s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+Claires-MacBook-Pro:Week5 claire$ 
